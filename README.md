@@ -1,0 +1,2 @@
+# Szkriptnyelvek
+Scripting Languages
