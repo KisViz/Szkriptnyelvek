@@ -1,0 +1,27 @@
+# Szkriptnyelvek gyakorlás
+
+1. Hozzuk létre a `reverse_normalize` függvényt, ami egy stringet vár paraméterként és visszaadja a szöveget megfordítva úgy, hogy az esetleges felesleges szóközöket is kitörli belőle
+
+2. Hozzuk létre az `eminem` függvényt, ami egy stringet vár paraméterben és visszaadja a szöveget nagy kezdőbetűvel szóközök nélkül.
+
+3. Hozzuk létre a `statisztika` függvényt, amely egy stringet vár paraméterben és visszaad egy dictionary-t, amiben a betűk előfordulásainak száma van.
+{betű1: előfordulások_száma, betű2: előfordulások_száma2, ....}
+
+4. Hozzuk létre a `winner_betu` függvényt, amely egy stringet vár paraméterben és visszaadja a stringben legtöbbször előforduló betűt.
+
+5. Hozzuk létre az Asvanyviz osztályt, aminek 4 adattagja van (`marka`, `urtartalom`, `_ph` és `asvanyi_anyagok`)
+	- Készítsük el a paraméteres konstruktort, amiben inicializáljuk az adattagokat.
+	- Az `asvanyi_anyagok` lista alapértelmezetten üres listaként legyen inicializálva.
+	- A _ph-t ne legyen kötelező megadni és ebben az esetben legyen 5 az értéke alapból
+
+	- Hozzunk létre get és set propertyket a privát adattagunknak ph néven
+	- A setterben ne lehessen negatív értéket megadni, amennyiben ez megtörténik, állítsuk az értékét 5-re, valid érték megadása esetén pedig arra.
+
+	- Készítsük el az `asvanyi_anyag_hozzaad` függvényt, ami egy sztringet vár paraméterben. Valid input esetén adjuk hozzá az asvanyi_anyagok listához, viszont, ha nem stringet kapunk dobjunk `ValueError` kivételt "Ne mergezd az ivovizet" szöveggel.
+
+	- Definiáld felül a += operátort, amivel ásványvizeket tudsz összeönteni.
+	Az eredeti objetumunk űrtartalma nőjjön meg a paraméter űrtartalmával és adjuk hozzá az ásványi anyagait is.
+
+	- Definiáld felül az objektum stringgé alakítást is. Ha vannak benne ásványi anyagok térjen vissza az alábbi szöveggel:
+		"{marka} viz, {urtartalom} literes, {ph} értékkel rendelkezik és ilyen ásványi anyagok vannak benne: {asvanyi_anyagok}"
+		Ha nincs, akkor térjen vissza a "{marka} viz, {urtartalom} literes, {ph} értékkel rendelkezik és nincs benne ásványi anyag."

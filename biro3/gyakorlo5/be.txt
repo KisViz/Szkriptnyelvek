@@ -1,0 +1,20 @@
+Max Thunderbolt;98;Nebula Racing Team
+Luna Racer;88;Nebula Racing Team
+Blaze Velocity;75;Solar Wing Motorsport
+Aurora Storm;91;Quantum Speed Racing
+Orion Swift;89;Nebula Racing Team
+Nova Drift;92;Quantum Speed Racing
+Comet Dash;89;Solar Wing Motorsport
+Starburst Fury;90;Nebula Racing Team
+Galaxy Jetstream;97;Starship Grand Prix Team
+Solar Flare;92;Quantum Speed Racing
+Cosmic Velocity;84;Nebula Racing Team
+Nebula Blaze;88;Cosmic Thunder Racing
+Quantum Speedster;95;Starship Grand Prix Team
+Meteor Strike;76;Solar Wing Motorsport
+Infinity Racer;82;Quantum Speed Racing
+Warp Thrust;98;Starship Grand Prix Team
+Hyperdrive Sprint;82;Nebula Racing Team
+Supersonic Nebula;95;Cosmic Thunder Racing
+Plasma Rocket;87;Starship Grand Prix Team
+Gravity Surge;90;Nebula Racing Team
